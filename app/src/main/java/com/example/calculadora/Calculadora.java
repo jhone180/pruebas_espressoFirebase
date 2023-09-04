@@ -12,9 +12,13 @@ public class Calculadora {
         }
     }
 
+    /**
+     *
+     * @param num1
+     * @return
+     */
     public int fibonacci(int num1){
         if(num1 <= 1){
-            
             return num1;
         } else {
             return fibonacci(num1 - 1) + fibonacci(num1 - 2);
